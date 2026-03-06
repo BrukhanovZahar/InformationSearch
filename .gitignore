@@ -1,0 +1,34 @@
+# Скомпилированные бинарники
+tokenizer
+freq_counter
+indexer
+searcher
+stemmer_test
+
+# Данные (БД, индексы, графики)
+*.db
+*.db-shm
+*.db-wal
+*.bin
+*.csv
+*.png
+!zipf_graph.png
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# LaTeX промежуточные файлы
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store

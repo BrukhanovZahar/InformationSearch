@@ -1,0 +1,18 @@
+db:
+  path: "crawler_data.db"
+
+logic:
+  request_delay: 0.15
+  max_docs: 30000
+
+  seed_urls:
+    - "https://habr.com/ru/hubs/mobile_dev/articles/"
+    - "https://habr.com/ru/hubs/android_dev/articles/"
+    - "https://habr.com/ru/hubs/ios_dev/articles/"
+    - "https://ru.wikipedia.org/wiki/Категория:Мобильное_программное_обеспечение"
+    - "https://ru.wikipedia.org/wiki/Категория:Программное_обеспечение_для_Android"
+    - "https://ru.wikipedia.org/wiki/Категория:Программное_обеспечение_для_iOS"
+
+  allowed_domains:
+    - "habr.com"
+    - "ru.wikipedia.org"
